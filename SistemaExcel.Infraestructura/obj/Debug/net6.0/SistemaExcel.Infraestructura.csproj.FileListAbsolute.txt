@@ -1,0 +1,17 @@
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Infraestructura\obj\Debug\net6.0\SistemaExcel.Infraestructura.csproj.AssemblyReference.cache
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Infraestructura\obj\Debug\net6.0\SistemaExcel.Infraestructura.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Infraestructura\obj\Debug\net6.0\SistemaExcel.Infraestructura.AssemblyInfoInputs.cache
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Infraestructura\obj\Debug\net6.0\SistemaExcel.Infraestructura.AssemblyInfo.cs
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Infraestructura\obj\Debug\net6.0\SistemaExcel.Infraestructura.csproj.CoreCompileInputs.cache
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Infraestructura\bin\Debug\net6.0\SistemaExcel.Infraestructura.deps.json
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Infraestructura\bin\Debug\net6.0\SistemaExcel.Infraestructura.dll
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Infraestructura\bin\Debug\net6.0\SistemaExcel.Infraestructura.pdb
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Infraestructura\bin\Debug\net6.0\SistemaExcel.Applicacion.dll
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Infraestructura\bin\Debug\net6.0\SistemaExcel.Dominio.dll
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Infraestructura\bin\Debug\net6.0\SistemaExcel.Applicacion.pdb
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Infraestructura\bin\Debug\net6.0\SistemaExcel.Dominio.pdb
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Infraestructura\obj\Debug\net6.0\SistemaExcel.Infraestructura.csproj.CopyComplete
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Infraestructura\obj\Debug\net6.0\SistemaExcel.Infraestructura.dll
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Infraestructura\obj\Debug\net6.0\refint\SistemaExcel.Infraestructura.dll
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Infraestructura\obj\Debug\net6.0\SistemaExcel.Infraestructura.pdb
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Infraestructura\obj\Debug\net6.0\ref\SistemaExcel.Infraestructura.dll

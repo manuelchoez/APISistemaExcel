@@ -1,0 +1,15 @@
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Applicacion\bin\Debug\net6.0\SistemaExcel.Applicacion.deps.json
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Applicacion\bin\Debug\net6.0\SistemaExcel.Applicacion.dll
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Applicacion\bin\Debug\net6.0\SistemaExcel.Applicacion.pdb
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Applicacion\bin\Debug\net6.0\SistemaExcel.Dominio.dll
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Applicacion\bin\Debug\net6.0\SistemaExcel.Dominio.pdb
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Applicacion\obj\Debug\net6.0\SistemaExcel.Applicacion.csproj.AssemblyReference.cache
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Applicacion\obj\Debug\net6.0\SistemaExcel.Applicacion.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Applicacion\obj\Debug\net6.0\SistemaExcel.Applicacion.AssemblyInfoInputs.cache
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Applicacion\obj\Debug\net6.0\SistemaExcel.Applicacion.AssemblyInfo.cs
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Applicacion\obj\Debug\net6.0\SistemaExcel.Applicacion.csproj.CoreCompileInputs.cache
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Applicacion\obj\Debug\net6.0\SistemaExcel.Applicacion.csproj.CopyComplete
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Applicacion\obj\Debug\net6.0\SistemaExcel.Applicacion.dll
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Applicacion\obj\Debug\net6.0\refint\SistemaExcel.Applicacion.dll
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Applicacion\obj\Debug\net6.0\SistemaExcel.Applicacion.pdb
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Applicacion\obj\Debug\net6.0\ref\SistemaExcel.Applicacion.dll

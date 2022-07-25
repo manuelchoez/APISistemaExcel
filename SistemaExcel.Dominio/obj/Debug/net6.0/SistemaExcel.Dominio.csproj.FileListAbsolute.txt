@@ -1,0 +1,12 @@
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Dominio\bin\Debug\net6.0\SistemaExcel.Dominio.deps.json
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Dominio\bin\Debug\net6.0\SistemaExcel.Dominio.dll
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Dominio\bin\Debug\net6.0\SistemaExcel.Dominio.pdb
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Dominio\obj\Debug\net6.0\SistemaExcel.Dominio.csproj.AssemblyReference.cache
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Dominio\obj\Debug\net6.0\SistemaExcel.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Dominio\obj\Debug\net6.0\SistemaExcel.Dominio.AssemblyInfoInputs.cache
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Dominio\obj\Debug\net6.0\SistemaExcel.Dominio.AssemblyInfo.cs
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Dominio\obj\Debug\net6.0\SistemaExcel.Dominio.csproj.CoreCompileInputs.cache
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Dominio\obj\Debug\net6.0\SistemaExcel.Dominio.dll
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Dominio\obj\Debug\net6.0\refint\SistemaExcel.Dominio.dll
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Dominio\obj\Debug\net6.0\SistemaExcel.Dominio.pdb
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.Dominio\obj\Debug\net6.0\ref\SistemaExcel.Dominio.dll
