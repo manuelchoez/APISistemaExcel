@@ -1,0 +1,6 @@
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.API\obj\Debug\net5.0\SistemaExcel.API.csproj.AssemblyReference.cache
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.API\obj\Debug\net5.0\SistemaExcel.API.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.API\obj\Debug\net5.0\SistemaExcel.API.AssemblyInfoInputs.cache
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.API\obj\Debug\net5.0\SistemaExcel.API.AssemblyInfo.cs
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.API\obj\Debug\net5.0\SistemaExcel.API.csproj.CoreCompileInputs.cache
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.API\obj\Debug\net5.0\SistemaExcel.API.MvcApplicationPartsAssemblyInfo.cache
