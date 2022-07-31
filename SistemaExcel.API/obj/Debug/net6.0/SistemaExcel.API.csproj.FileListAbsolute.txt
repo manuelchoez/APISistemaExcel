@@ -60,3 +60,8 @@ E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.API\bin\Debug\net6.0\Serilog
 E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.API\bin\Debug\net6.0\Serilog.Sinks.File.dll
 E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.API\bin\Debug\net6.0\Serilog.Sinks.MongoDB.dll
 E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.API\bin\Debug\net6.0\Serilog.Sinks.PeriodicBatching.dll
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

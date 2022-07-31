@@ -17,6 +17,7 @@ namespace SistemaExcel.Applicacion.Mapper
             MapperConfiguration config = new MapperConfiguration(cfg =>
             {
                 cfg.CreateMap<DataOne, DataOneModel>().ReverseMap();
+                cfg.CreateMap<Users, UsersModel>().ReverseMap();
 
             });
             mapper = config.CreateMapper();
