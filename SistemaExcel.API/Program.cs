@@ -7,6 +7,9 @@ using SistemaExcel.Infraestructura.Log;
 using SistemaExcel.Applicacion.Mapper.Interfaces;
 using SistemaExcel.Applicacion.Mapper;
 using SistemaExcel.Infraestructura.Token;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,6 +32,22 @@ builder.Services.AddCors(options =>
                                 .AllowAnyMethod();
                       });
 });
+
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+{
+    options.RequireHttpsMetadata = false;
+    options.SaveToken = true;
+    options.TokenValidationParameters = new TokenValidationParameters()
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidAudience = builder.Configuration["Jwt:audienceToken"],
+        ValidIssuer = builder.Configuration["Jwt:issuerToken"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:secretKey"]))
+    };    
+});
+
 // Add services to the container.
 builder.Services.AddSingleton(Log.Logger);
 builder.Services.AddScoped<IDataOneService, DataOneService>();
@@ -55,7 +74,9 @@ app.UseHttpsRedirection();
 
 app.UseCors(MyAllowSpecificOrigins);
 
+app.UseAuthentication();
 app.UseAuthorization();
+
 
 app.MapControllers();
 

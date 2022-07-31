@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SistemaExcel.Applicacion.Services.Interfaces;
 using SistemaExcel.Dominio.Model;
 
 namespace SistemaExcel.API.Controllers
 {
+    [Authorize]
     [Route("api/dataone")]
     [ApiController]
     public class DataOneController : ControllerBase

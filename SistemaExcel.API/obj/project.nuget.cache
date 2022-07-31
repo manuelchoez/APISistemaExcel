@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "d6zNEEpZ1jbZWJHCIgnt4yte0aZpcd+HozN68AdGEVgikUFG9DZPydiejY5/Phfaym8Ujyd/M6xJxv6az7UxvA==",
+  "dgSpecHash": "gTJqpss09lzOPa3nAHBrxo6UCVyoxLZB073nQdwuE+H1b3W76yxTr+mLqorRoTQRNn2d4AHCfSsgbddyaYqZJQ==",
   "success": true,
   "projectFilePath": "E:\\Proyectos Manuel Choez\\SistemaExcel\\SistemaExcel.API\\SistemaExcel.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.7\\microsoft.aspnetcore.authentication.jwtbearer.6.0.7.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.configuration\\2.0.0\\microsoft.extensions.configuration.2.0.0.nupkg.sha512",
@@ -24,6 +25,8 @@
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.22.0\\microsoft.identitymodel.abstractions.6.22.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.22.0\\microsoft.identitymodel.jsonwebtokens.6.22.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.identitymodel.logging\\6.22.0\\microsoft.identitymodel.logging.6.22.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.10.0\\microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.10.0\\microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.22.0\\microsoft.identitymodel.tokens.6.22.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

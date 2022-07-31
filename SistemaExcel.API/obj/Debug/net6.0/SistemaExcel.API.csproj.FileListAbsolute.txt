@@ -65,3 +65,6 @@ E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.API\bin\Debug\net6.0\Microso
 E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
 E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Proyectos Manuel Choez\SistemaExcel\SistemaExcel.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
