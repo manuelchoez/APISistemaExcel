@@ -11,5 +11,8 @@ namespace SistemaExcel.Applicacion.Constantes
         public const string Server = "InfoConnect:Server";
         public const string Database = "InfoConnect:Database";
         public const string Collection = "InfoConnect:Collection";
+        public const string CollectionLog = "InfoConnect:CollectionLog";
+        
+
     }
 }

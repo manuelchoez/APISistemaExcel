@@ -5,12 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SistemaExcel.Infraestructura.Entidades
+namespace SistemaExcel.Dominio.Entidades
 {
     public class DataOne
     {
         [BsonId]
         [BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
+        [BsonElement("id")]
         public string? Id { get; set; }
         [BsonElement("campoIdentificador")]
         public string? CampoIdentificador { get; set; }

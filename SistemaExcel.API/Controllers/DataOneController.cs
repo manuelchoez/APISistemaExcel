@@ -36,5 +36,12 @@ namespace SistemaExcel.API.Controllers
         {
             return _dataOneService.ActualizarDataOne(model);
         }
+
+        [HttpGet]
+        [Route("Prueba")]
+        public string Prueba()
+        {
+            return  "Hola mundo";
+        }
     }
 }
