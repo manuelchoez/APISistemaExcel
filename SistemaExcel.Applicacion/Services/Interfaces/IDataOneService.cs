@@ -1,4 +1,5 @@
-﻿using SistemaExcel.Dominio.Model;
+﻿using SistemaExcel.Applicacion.Util;
+using SistemaExcel.Dominio.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +10,8 @@ namespace SistemaExcel.Applicacion.Services.Interfaces
 {
     public interface IDataOneService
     {
-        Task<List<DataOneModel>> ConsultarDataOne();
-        Task<bool> CargarDataOne(List<DataOneModel> model);
-        Task<bool> ActualizarDataOne(List<DataOneModel> model);
+        Task<Response<List<DataOneModel>>> ConsultarDataOne();
+        Task<Response<bool>> CargarDataOne(List<DataOneModel> model);
+        Task<Response<bool>> ActualizarDataOne(List<DataOneModel> model);
     }
 }

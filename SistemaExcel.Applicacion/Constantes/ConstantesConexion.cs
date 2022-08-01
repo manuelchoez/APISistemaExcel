@@ -13,6 +13,8 @@ namespace SistemaExcel.Applicacion.Constantes
         public const string Collection = "InfoConnect:Collection";
         public const string CollectionLog = "InfoConnect:CollectionLog";
         public const string CollectionU = "InfoConnect:CollectionU";
+        public const string CollectionDt = "InfoConnect:CollectionDt";
+        
 
 
     }

@@ -18,6 +18,7 @@ namespace SistemaExcel.Applicacion.Mapper
             {
                 cfg.CreateMap<DataOne, DataOneModel>().ReverseMap();
                 cfg.CreateMap<Users, UsersModel>().ReverseMap();
+                cfg.CreateMap<DataTwo, DataTwoModel>().ReverseMap();
 
             });
             mapper = config.CreateMapper();

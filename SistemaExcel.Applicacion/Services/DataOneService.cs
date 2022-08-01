@@ -1,6 +1,7 @@
 ﻿using Serilog;
 using SistemaExcel.Applicacion.Mapper.Interfaces;
 using SistemaExcel.Applicacion.Services.Interfaces;
+using SistemaExcel.Applicacion.Util;
 using SistemaExcel.Dominio.Entidades;
 using SistemaExcel.Dominio.Model;
 using SistemaExcel.Dominio.Repository;
@@ -24,25 +25,33 @@ namespace SistemaExcel.Applicacion.Services
             _log = log.ForContext<DataOneService>();
         }
 
-        public async Task<bool> ActualizarDataOne(List<DataOneModel> model)
+        public async Task<Response<bool>> ActualizarDataOne(List<DataOneModel> model)
         {
             bool resutado = true;
             List<DataOne> dataOne = new List<DataOne>();
             try
             {
                 dataOne = mapeador.mapper.Map<List<DataOne>>(model);
+                if (dataOne.Count>0)
+                {
+                    foreach (var item in dataOne)
+                    {
+                        item.FechaActualizacion = DateTime.Now.ToString();
+                    }
+                }
                 resutado = await _dataOneRepository.ActualizarDataOne(dataOne);
+                return Response<bool>.Ok(true, "");
             }
             catch (Exception ex)
-            {               
-                _log.Error(ex, "Error ActualizarDataOne");                
+            {
+                _log.Error(ex, "Error ActualizarDataOne");
+                return Response<bool>.Error(ex);
             }
-            return resutado;
+            
         }
 
-        public async Task<bool> CargarDataOne(List<DataOneModel> model)
-        {
-            bool resutado = true;
+        public async Task<Response<bool>> CargarDataOne(List<DataOneModel> model)
+        {            
             List<DataOne> dataOne = new List<DataOne>();
             List<DataOne> datos = new List<DataOne>();
             try
@@ -51,31 +60,55 @@ namespace SistemaExcel.Applicacion.Services
                 datos = await _dataOneRepository.ConsultarDataOne();
                 if (dataOne.Count > 0 )
                 {
-                    var cruce = (from d in datos join
-                                        x in dataOne on d.CampoIdentificador equals x.CampoIdentificador
+
+                    List<DataOne> insertar = (from d in dataOne
+                                    where d.CampoIdentificador > 0
+                                    select d).ToList();
+
+                    List<DataOne> cruceSinFechaActualizar = (from d in datos join
+                                        x in insertar on d.CampoIdentificador equals x.CampoIdentificador
                                  where string.IsNullOrEmpty(d.FechaActualizacion)
                                  select d).ToList();
-                    if (cruce.Count>0)
+                    if (cruceSinFechaActualizar.Count>0)
                     {
-                        foreach (var item in cruce)
+                        foreach (var item in cruceSinFechaActualizar)
                         {
-                            item.FechaCarga = DateTime.Now.ToString();
-                            dataOne.Remove(item);
+                            item.FechaCarga = DateTime.Now.ToString();                            
                         }
-                        await _dataOneRepository.ActualizarDataOne(cruce);
+                        await _dataOneRepository.ActualizarDataOne(cruceSinFechaActualizar);
                     }
 
-                    await _dataOneRepository.CargarDataOne(dataOne);                                                      
-                }                                    
+                    List<DataOne> cruceConFechaActualizar = (from d in datos
+                                                             join x in insertar on d.CampoIdentificador equals x.CampoIdentificador
+                                                             where !string.IsNullOrEmpty(d.FechaActualizacion)
+                                                             select new DataOne { Id = d.Id, Campodos = x.Campodos, CampoIdentificador = d.CampoIdentificador, Campook = d.Campook, Camporechazo = d.Camporechazo, Campouno = d.Campouno, FechaActualizacion = d.FechaActualizacion, FechaCarga = d.FechaCarga} ).ToList();
+
+                    if (cruceConFechaActualizar.Count>0)
+                    {
+                        await _dataOneRepository.ActualizarDataOne(cruceConFechaActualizar);
+                    }
+
+                    int[] ids = datos.Select(x => x.CampoIdentificador).Distinct().ToArray();
+                    if (ids.Count()>0)
+                    {
+                        List<DataOne> nuevos = insertar.Where(x => !ids.Contains(x.CampoIdentificador)).ToList();
+                        await _dataOneRepository.CargarDataOne(nuevos);
+                    }
+                    else
+                    {
+                        await _dataOneRepository.CargarDataOne(insertar);
+                    }                                                                         
+                }
+                return Response<bool>.Ok(true,"");
             }
             catch (Exception ex)
             {
                 _log.Error(ex, "Error CargarDataOne");
-            }
-            return resutado;
+                return Response<bool>.Error(ex);
+            }            
         }
 
-        public async  Task<List<DataOneModel>> ConsultarDataOne()
+        public async  Task<Response<List<DataOneModel>>> ConsultarDataOne()
         {
             List<DataOneModel> resutado = new List<DataOneModel>();
             List<DataOne> datos = new List<DataOne>();
@@ -83,12 +116,14 @@ namespace SistemaExcel.Applicacion.Services
             {
                 datos = await _dataOneRepository.ConsultarDataOne();
                 resutado = mapeador.mapper.Map<List<DataOneModel>>(datos);
+                return Response<List<DataOneModel>>.Ok(resutado, "");
             }
             catch (Exception ex)
             {
                 _log.Error(ex, "Error ConsultarDataOne");
+                return Response<List<DataOneModel>>.Error(ex);
             }
-            return resutado;
+            
         }
     }
 }

@@ -14,7 +14,7 @@ namespace SistemaExcel.Dominio.Entidades
         [BsonElement("id")]
         public string? Id { get; set; }
         [BsonElement("username")]
-        public string? UerName { get; set; }
+        public string? UserName { get; set; }
         [BsonElement("password")]
         public string? Password { get; set; }
         [BsonElement("perfil")]

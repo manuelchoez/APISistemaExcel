@@ -14,9 +14,9 @@ namespace SistemaExcel.Dominio.Entidades
         [BsonElement("id")]
         public string? Id { get; set; }
         [BsonElement("campoIdentificador")]
-        public string? CampoIdentificador { get; set; }
+        public int CampoIdentificador { get; set; }
         [BsonElement("campouno")]
-        public string? Campouno { get; set; }
+        public int Campouno { get; set; }
         [BsonElement("campodos")]
         public string? Campodos { get; set; }
         [BsonElement("campook")]

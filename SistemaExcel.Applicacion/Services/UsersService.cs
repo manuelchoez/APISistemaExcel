@@ -40,10 +40,11 @@ namespace SistemaExcel.Applicacion.Services
                 m = mapeador.mapper.Map<UsersModel>(resultado);
                 if (resultado!=null)
                 {
-                    m.Token = _token.GenerarTokenJwt(m.UerName);
+                    m.Token = _token.GenerarTokenJwt(m.UserName);
                 }
                 else
                 {
+                    m = new UsersModel();
                     m.Mensaje = ConstantesMensajes.MensajeLogin;
                 }
 

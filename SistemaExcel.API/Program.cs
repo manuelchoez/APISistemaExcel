@@ -52,6 +52,8 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
 builder.Services.AddSingleton(Log.Logger);
 builder.Services.AddScoped<IDataOneService, DataOneService>();
 builder.Services.AddScoped<IDataOneRepository, DataOneRepository>();
+builder.Services.AddScoped<IDataTwoService, DataTwoService>();
+builder.Services.AddScoped<IDataTwoRepository, DataTwoRepository>();
 builder.Services.AddScoped<IUsersRepository, UsersRepository>();
 builder.Services.AddScoped<IUsersService, UsersService>();
 builder.Services.AddScoped<IToken, Token>();

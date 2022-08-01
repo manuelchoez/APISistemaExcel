@@ -32,10 +32,10 @@ namespace SistemaExcel.Infraestructura.Data
             Users u = new Users();
             if (users!=null)
             {
-                if (!string.IsNullOrEmpty(users.UerName) && !string.IsNullOrEmpty(users.Password))
+                if (!string.IsNullOrEmpty(users.UserName) && !string.IsNullOrEmpty(users.Password))
                 {
                     var x = await Collection().FindAsync(x=> true).Result.ToListAsync();
-                    u = await Collection().FindAsync(x => x.UerName == users.UerName && x.Password == users.Password).Result.FirstOrDefaultAsync();
+                    u = await Collection().FindAsync(x => x.UserName == users.UserName && x.Password == users.Password).Result.FirstOrDefaultAsync();
                 }
             }
             return u;

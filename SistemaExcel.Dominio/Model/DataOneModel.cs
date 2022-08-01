@@ -9,8 +9,8 @@ namespace SistemaExcel.Dominio.Model
     public class DataOneModel
     {
         public string? Id { get; set; }
-        public string? CampoIdentificador { get; set; }
-        public string? Campouno { get; set; }
+        public int CampoIdentificador { get; set; }
+        public int Campouno { get; set; }
         public string? Campodos { get; set; }
         public bool Campook { get; set; }
         public bool Camporechazo { get; set; }
