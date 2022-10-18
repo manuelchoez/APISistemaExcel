@@ -2,10 +2,10 @@
 .vs/
 
 # No se sube la carpeta obj y su contenido
-**/obj/*
+obj
 
 # No se sube la carpeta bin y su contenido
-**/bin/*
+bin
 
 # No se sube la carpeta packages y su contenido
 */packages/*
